@@ -1,0 +1,247 @@
+.logo {
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+}
+
+.app-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.banner {
+  background: rgb(241, 241, 241);
+}
+
+.saldo_inicial {
+  display: flex;
+}
+
+.row-saldo {
+  position: relative;
+}
+
+.dollar-icon {
+  position: absolute;
+  right: 23px;
+  bottom: 3px;
+}
+
+
+.label_form {
+  margin-left: px;
+}
+
+.counter {
+  float: right;
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  
+.container {
+  background: #d5a675;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #12343b;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #d5a675;
+  border-radius: 10px;
+}
+
+
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 5px;
+}
+ */
+
+ .options{
+   text-align: center;
+   padding: 30px;
+ }
+
+ .options>.add{
+  margin-left: 100px;
+ }
+
+ .options>.cancel{
+   border: 1px solid black;
+ }
+
+
+.button-edit {
+  color: orange;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+}
+
+.button-complete{
+  color:green;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+}
+
+.nombre {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+.button-delete {
+  color:red;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  padding: 10px;
+  min-height: 30px;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.text-left {
+  padding-left: 40px !important;
+}
+
+.redondear {
+  border-radius: 10px;
+}
+
+.header-options{
+  padding: 20px;
+}
+
+.filtrador{
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-right:30px;
+}
+
+.counter{
+  margin-right: 15px;
+  margin-top:3px;
+}
+
+.input-container {
+	padding-bottom: 1em;
+}
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 35px !important; 
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 35px !important;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+
+.left-and-right-inner-addon {
+    position: relative;
+}
+.left-and-right-inner-addon input {
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+}
+.left-and-right-inner-addon i.left {
+    position: absolute;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+.left-and-right-inner-addon i.right {
+    position: absolute;
+    right: 0px;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+
+
+.right-inner-addon-b {
+    position: relative;
+}
+.right-inner-addon-b input {
+    padding-right: 35px !important;
+}
+.right-inner-addon-b i {
+    position: absolute;
+    right: 0px;
+    padding: 9px 12px;
+    pointer-events: none;
+}
