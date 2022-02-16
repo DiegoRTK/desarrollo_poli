@@ -64,12 +64,18 @@ const Registro = ({
       setShow(true);
       setTitulo("Registro exitoso");
       setMensaje(
-        `El ${
-          movimientoType === "gasto" ? "Gasto" : "Ingreso"
+        `El ${movimientoType === "gasto" ? "Gasto" : "Ingreso"
         } fue agregado con éxito`
       );
       if (edit) {
-        updateTodo(edit.id, input, input1, select);
+        if ((salarioFinal === "$0" || salarioFinal < input1) &&movimientoType === "gasto") {
+          updateTodo(edit.id, input, input1, select);
+        }
+        else{
+          setShow(true);
+          setTitulo("Error");
+          setMensaje(`No cuenta con saldo suficiente, su saldo es ${formatter.format(salarioFinal)}`);
+        }
       } else {
         const newtodo = {
           id: uuid4(),
